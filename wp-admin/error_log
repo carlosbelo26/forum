@@ -1,0 +1,32 @@
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[14-Mar-2019 13:47:14 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Welcome Show","properties":{"mp_lib":"php","token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1552571234}}
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 94 ] : destruct flush attempt #1
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 111 ] : Flush called - queue size: 0
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 94 ] : destruct flush attempt #1
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 111 ] : Flush called - queue size: 1
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 107 ] : Making blocking cURL call to https://api.mixpanel.com/track
+[14-Mar-2019 13:47:15 UTC] [ Base_MixpanelBase - line 133 ] : Batch of 1 consumed, queue size is now 0
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 76 ] : Using token: 6fe8d87bb7308ab9accf8ac8c04ac962
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 173 ] : Using consumer: curl -> ConsumerStrategies_CurlConsumer
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 18 ] : Instantiated new Consumer
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Deactivated","properties":{"mp_lib":"php","Reason":"Found better","Better plugin":"","token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1552571337}}
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 194 ] : Queued message: {"event":"Used Time","properties":{"mp_lib":"php","Seconds":103,"Hours":0,"Days":0,"token":"6fe8d87bb7308ab9accf8ac8c04ac962","time":1552571337}}
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 94 ] : destruct flush attempt #1
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 111 ] : Flush called - queue size: 2
+[14-Mar-2019 13:48:57 UTC] [ Base_MixpanelBase - line 107 ] : Making blocking cURL call to https://api.mixpanel.com/track
+[14-Mar-2019 13:48:58 UTC] [ Base_MixpanelBase - line 133 ] : Batch of 2 consumed, queue size is now 0
+[14-Mar-2019 13:48:58 UTC] [ Base_MixpanelBase - line 94 ] : destruct flush attempt #1
+[14-Mar-2019 13:48:58 UTC] [ Base_MixpanelBase - line 111 ] : Flush called - queue size: 0
+[22-Apr-2019 19:09:19 UTC] Erro de banco de dados do WordPress Deadlock found when trying to get lock; try restarting transaction para a consulta DELETE FROM `wp_options` WHERE `option_name` = '_transient__siteground_optimizer_installing' feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, SiteGround_Optimizer\Install_Service\Install_Service->install, delete_transient, delete_option
+[06-May-2019 14:39:04 UTC] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/forum612/public_html/wp-content/plugins/resmushit-image-optimizer/classes/resmushit.class.php on line 81
+[06-May-2019 14:39:04 UTC] PHP Warning:  file_get_contents(http://rou1.static.resmush.it/15f72d9369406eb4b66a434fd7f0cd53/3000-250x200.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/forum612/public_html/wp-content/plugins/resmushit-image-optimizer/classes/resmushit.class.php on line 81
+[06-May-2019 14:39:06 UTC] PHP Warning:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/forum612/public_html/wp-content/plugins/resmushit-image-optimizer/classes/resmushit.class.php on line 81
+[06-May-2019 14:39:06 UTC] PHP Warning:  file_get_contents(http://rou1.static.resmush.it/1b9d9a3b3e0e2bddb67f0823349c88c3/3000-200x200.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/forum612/public_html/wp-content/plugins/resmushit-image-optimizer/classes/resmushit.class.php on line 81

@@ -1,0 +1,1 @@
+<?php wp_redirect(home_url().'?page_id=189'); ?>
