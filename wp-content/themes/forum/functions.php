@@ -106,27 +106,27 @@
     }
     add_action('init', 'categoria_projeto_taxonomy', 0);
 
-    // categoria debate
-    // function categoria_debate_taxonomy() {
+    // categoria Acervo de Links
+     function categoria_acervo_de_links_taxonomy() {
 
-    //     $labels = array(
-    //         'name'                       => _x( 'Categorias', 'Taxonomy General Name', 'text_domain' ),
-    //         'singular_name'              => _x( 'Categoria', 'Taxonomy Singular Name', 'text_domain' ),
-    //         'menu_name'                  => __( 'Categorias', 'text_domain' )
-    //     );
-    //     $args = array(
-    //         'labels'                     => $labels,
-    //         'hierarchical'               => true,
-    //         'public'                     => true,
-    //         'show_ui'                    => true,
-    //         'show_admin_column'          => true,
-    //         'show_in_nav_menus'          => true,
-    //         'show_tagcloud'              => true,
-    //     );
-    //     register_taxonomy('categoria_debate', array('debate'), $args);
+         $labels = array(
+             'name'                       => _x( 'Categorias', 'Taxonomy General Name', 'text_domain' ),
+             'singular_name'              => _x( 'Categoria', 'Taxonomy Singular Name', 'text_domain' ),
+             'menu_name'                  => __( 'Categorias', 'text_domain' )
+         );
+         $args = array(
+             'labels'                     => $labels,
+             'hierarchical'               => true,
+             'public'                     => true,
+             'show_ui'                    => true,
+             'show_admin_column'          => true,
+             'show_in_nav_menus'          => true,
+             'show_tagcloud'              => true,
+         );
+         register_taxonomy('categoria_acervo_de_links', array('Acervo-Links'), $args);
 
-    // }
-    // add_action('init', 'categoria_debate_taxonomy', 0);
+     }
+     add_action('init', 'categoria_acervo_de_Links_taxonomy', 0);
 
     // categoria agenda-noticia
     function categoria_agenda_noticia_taxonomy() {
@@ -318,47 +318,47 @@
     }
     add_action('init', 'projeto_post_type', 0);
 
-    // debate
-    // function debate_post_type() {
-    //     $labels = array(
-    //         'name'                  => _x('Debate', 'Post Type General Name', 'text_domain'),
-    //         'singular_name'         => _x('Debate', 'Post Type Singular Name', 'text_domain'),
-    //         'menu_name'             => __('Debate', 'text_domain'),
-    //         'name_admin_bar'        => __('Debate', 'text_domain'),
-    //         'archives'              => __('Debate', 'text_domain'),
-    //         'all_items'             => __('Cadastros', 'text_domain'),
-    //         'add_new_item'          => __('Add novo', 'text_domain'),
-    //         'add_new'               => __('Novo', 'text_domain'),
-    //         'new_item'              => __('Novo', 'text_domain'),
-    //         'edit_item'             => __('Editar', 'text_domain'),
-    //         'update_item'           => __('Atualizar', 'text_domain'),
-    //         'view_item'             => __('Visualizar', 'text_domain'),
-    //         'search_items'          => __('Pesquisar', 'text_domain'),
-    //         'not_found'             => __('Sem registros!', 'text_domain'),
-    //         'not_found_in_trash'    => __('Sem registro na lixeira', 'text_domain'),
-    //     );
-    //     $args = array(
-    //         'label'                 => __('Debate', 'text_domain'),
-    //         'description'           => __('Debate', 'text_domain'),
-    //         'labels'                => $labels,
-    //         'supports'              => array('title', 'editor', 'thumbnail', 'revisions'),
-    //         'taxonomies'            => array(),
-    //         'hierarchical'          => true,
-    //         'public'                => true,
-    //         'show_ui'               => true,
-    //         'show_in_menu'          => true,
-    //         'menu_position'         => 5,
-    //         'show_in_admin_bar'     => true,
-    //         'show_in_nav_menus'     => true,
-    //         'can_export'            => true,
-    //         'has_archive'           => true,
-    //         'exclude_from_search'   => false,
-    //         'publicly_queryable'    => true,
-    //         'capability_type'       => 'post',
-    //     );
-    //     register_post_type('debate', $args);
-    // }
-    // add_action('init', 'debate_post_type', 0);
+     Acervo de Links
+     function acervo_de_links_post_type() {
+         $labels = array(
+             'name'                  => _x('Acervo de Links', 'Post Type General Name', 'text_domain'),
+             'singular_name'         => _x('Acervo de Links', 'Post Type Singular Name', 'text_domain'),
+             'menu_name'             => __('Acervo de Links', 'text_domain'),
+             'name_admin_bar'        => __('Acervo de Links', 'text_domain'),
+             'archives'              => __('Acervo de Links', 'text_domain'),
+             'all_items'             => __('Cadastros', 'text_domain'),
+             'add_new_item'          => __('Add novo', 'text_domain'),
+             'add_new'               => __('Novo', 'text_domain'),
+             'new_item'              => __('Novo', 'text_domain'),
+             'edit_item'             => __('Editar', 'text_domain'),
+             'update_item'           => __('Atualizar', 'text_domain'),
+             'view_item'             => __('Visualizar', 'text_domain'),
+             'search_items'          => __('Pesquisar', 'text_domain'),
+             'not_found'             => __('Sem registros!', 'text_domain'),
+             'not_found_in_trash'    => __('Sem registro na lixeira', 'text_domain'),
+         );
+         $args = array(
+             'label'                 => __('Acervo de Links', 'text_domain'),
+             'description'           => __('Acervo de Links', 'text_domain'),
+             'labels'                => $labels,
+             'supports'              => array('title', 'editor', 'thumbnail', 'revisions'),
+             'taxonomies'            => array(),
+             'hierarchical'          => true,
+             'public'                => true,
+             'show_ui'               => true,
+             'show_in_menu'          => true,
+             'menu_position'         => 5,
+             'show_in_admin_bar'     => true,
+             'show_in_nav_menus'     => true,
+             'can_export'            => true,
+             'has_archive'           => true,
+             'exclude_from_search'   => false,
+             'publicly_queryable'    => true,
+             'capability_type'       => 'post',
+         );
+         register_post_type('Acervo de Links', $args);
+     }
+     add_action('init', 'acervo_de_links_post_type', 0);
 
     // agenda-noticia
     function agenda_noticia_post_type() {
