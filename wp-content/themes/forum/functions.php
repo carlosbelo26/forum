@@ -318,7 +318,7 @@
     }
     add_action('init', 'projeto_post_type', 0);
 
-     Acervo de Links
+     // Acervo de Links
      function acervo_de_links_post_type() {
          $labels = array(
              'name'                  => _x('Acervo de Links', 'Post Type General Name', 'text_domain'),
